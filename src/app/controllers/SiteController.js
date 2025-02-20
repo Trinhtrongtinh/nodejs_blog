@@ -1,3 +1,6 @@
+const Course = require('../models/Course');
+
+
 class SiteController {
   //[GET] /
   index(req, res) {
